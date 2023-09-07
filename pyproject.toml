@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tixel-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Paul Hutchins <hutchinsp01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tixel_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
